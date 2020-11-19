@@ -37,8 +37,8 @@ html {
 
 input {
     outline: none; border: none;
-    padding-left: 30px;
     background-color: rgba(0,0,0,0);
+    padding-right: -10px;
 }
 
 .grid-container:first-child{
@@ -69,9 +69,15 @@ input {
       font-size: 25px;
 }
 
-.addCoffee { grid-area: plus; }
+.addCoffee {
+     grid-area: plus;
+     margin-right: 10px;
+ }
 .deleteCoffee { 
-    grid-area: minus; }
+    grid-area: minus;
+    display: flex;
+    justify-content: flex-start;
+}
 
 
 /* @media(max-width: 450px) {
@@ -80,3 +86,8 @@ input {
     }
 }
  */
+ .line{
+    display:block;
+    width:100%;
+    border-top: 1px solid black
+ }
