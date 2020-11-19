@@ -7,7 +7,6 @@
     z-index: 100;
     left: -300px;
     top: 0px;
-
     -moz-transition: all 600ms;
     -webkit-transition: all 600ms;
     transform: all 600ms;
@@ -76,7 +75,6 @@
     border: none;
     color: #eee;
     font-size: 21px;
-    font-family: 'Cookie', cursive;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
